@@ -1,0 +1,749 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Chemistry/PeriodicTable.gd" type="Script" id=1]
+
+[node name="PeriodicTable" type="CanvasLayer"]
+script = ExtResource( 1 )
+
+[node name="H" type="Button" parent="."]
+margin_left = 60.0
+margin_top = 200.0
+margin_right = 92.0
+margin_bottom = 248.0
+text = "H"
+
+[node name="He" type="Button" parent="."]
+margin_left = 604.0
+margin_top = 200.0
+margin_right = 636.0
+margin_bottom = 248.0
+text = "He"
+
+[node name="Li" type="Button" parent="."]
+margin_left = 60.0
+margin_top = 248.0
+margin_right = 92.0
+margin_bottom = 296.0
+text = "Li"
+
+[node name="Be" type="Button" parent="."]
+margin_left = 92.0
+margin_top = 248.0
+margin_right = 124.0
+margin_bottom = 296.0
+text = "Be"
+
+[node name="B" type="Button" parent="."]
+margin_left = 444.0
+margin_top = 248.0
+margin_right = 476.0
+margin_bottom = 296.0
+text = "B"
+
+[node name="C" type="Button" parent="."]
+margin_left = 476.0
+margin_top = 248.0
+margin_right = 508.0
+margin_bottom = 296.0
+text = "C"
+
+[node name="N" type="Button" parent="."]
+margin_left = 508.0
+margin_top = 248.0
+margin_right = 540.0
+margin_bottom = 296.0
+text = "N"
+
+[node name="O" type="Button" parent="."]
+margin_left = 540.0
+margin_top = 248.0
+margin_right = 572.0
+margin_bottom = 296.0
+text = "O"
+
+[node name="F" type="Button" parent="."]
+margin_left = 572.0
+margin_top = 248.0
+margin_right = 604.0
+margin_bottom = 296.0
+text = "F"
+
+[node name="Ne" type="Button" parent="."]
+margin_left = 604.0
+margin_top = 248.0
+margin_right = 636.0
+margin_bottom = 296.0
+text = "Ne"
+
+[node name="Na" type="Button" parent="."]
+margin_left = 60.0
+margin_top = 296.0
+margin_right = 92.0
+margin_bottom = 344.0
+text = "Na"
+
+[node name="Mg" type="Button" parent="."]
+margin_left = 92.0
+margin_top = 296.0
+margin_right = 124.0
+margin_bottom = 344.0
+text = "Mg"
+
+[node name="Al" type="Button" parent="."]
+margin_left = 444.0
+margin_top = 296.0
+margin_right = 476.0
+margin_bottom = 344.0
+text = "Al"
+
+[node name="Si" type="Button" parent="."]
+margin_left = 476.0
+margin_top = 296.0
+margin_right = 508.0
+margin_bottom = 344.0
+text = "Si"
+
+[node name="P" type="Button" parent="."]
+margin_left = 508.0
+margin_top = 296.0
+margin_right = 540.0
+margin_bottom = 344.0
+text = "P"
+
+[node name="S" type="Button" parent="."]
+margin_left = 540.0
+margin_top = 296.0
+margin_right = 572.0
+margin_bottom = 344.0
+text = "S"
+
+[node name="Cl" type="Button" parent="."]
+margin_left = 576.0
+margin_top = 296.0
+margin_right = 608.0
+margin_bottom = 344.0
+text = "Cl"
+
+[node name="Ar" type="Button" parent="."]
+margin_left = 604.0
+margin_top = 296.0
+margin_right = 636.0
+margin_bottom = 344.0
+text = "Ar"
+
+[node name="K" type="Button" parent="."]
+margin_left = 60.0
+margin_top = 344.0
+margin_right = 92.0
+margin_bottom = 392.0
+text = "K"
+
+[node name="Ca" type="Button" parent="."]
+margin_left = 92.0
+margin_top = 344.0
+margin_right = 124.0
+margin_bottom = 392.0
+text = "Ca"
+
+[node name="Sc" type="Button" parent="."]
+margin_left = 124.0
+margin_top = 344.0
+margin_right = 156.0
+margin_bottom = 392.0
+text = "Sc"
+
+[node name="Ti" type="Button" parent="."]
+margin_left = 156.0
+margin_top = 344.0
+margin_right = 188.0
+margin_bottom = 392.0
+text = "Ti"
+
+[node name="V" type="Button" parent="."]
+margin_left = 188.0
+margin_top = 344.0
+margin_right = 220.0
+margin_bottom = 392.0
+text = "V"
+
+[node name="Cr" type="Button" parent="."]
+margin_left = 220.0
+margin_top = 344.0
+margin_right = 252.0
+margin_bottom = 392.0
+text = "Cr"
+
+[node name="Mn" type="Button" parent="."]
+margin_left = 252.0
+margin_top = 344.0
+margin_right = 284.0
+margin_bottom = 392.0
+text = "Mn"
+
+[node name="Fe" type="Button" parent="."]
+margin_left = 284.0
+margin_top = 344.0
+margin_right = 316.0
+margin_bottom = 392.0
+text = "Fe"
+
+[node name="Co" type="Button" parent="."]
+margin_left = 316.0
+margin_top = 344.0
+margin_right = 348.0
+margin_bottom = 392.0
+text = "Co"
+
+[node name="Ni" type="Button" parent="."]
+margin_left = 348.0
+margin_top = 344.0
+margin_right = 380.0
+margin_bottom = 392.0
+text = "Ni"
+
+[node name="Cu" type="Button" parent="."]
+margin_left = 380.0
+margin_top = 344.0
+margin_right = 412.0
+margin_bottom = 392.0
+text = "Cu"
+
+[node name="Zn" type="Button" parent="."]
+margin_left = 412.0
+margin_top = 344.0
+margin_right = 444.0
+margin_bottom = 392.0
+text = "Zn"
+
+[node name="Ga" type="Button" parent="."]
+margin_left = 444.0
+margin_top = 344.0
+margin_right = 476.0
+margin_bottom = 392.0
+text = "Ga"
+
+[node name="Ge" type="Button" parent="."]
+margin_left = 475.0
+margin_top = 344.0
+margin_right = 507.0
+margin_bottom = 392.0
+text = "Ge"
+
+[node name="As" type="Button" parent="."]
+margin_left = 508.0
+margin_top = 344.0
+margin_right = 540.0
+margin_bottom = 392.0
+text = "As"
+
+[node name="Se" type="Button" parent="."]
+margin_left = 540.0
+margin_top = 344.0
+margin_right = 572.0
+margin_bottom = 392.0
+text = "Se"
+
+[node name="Br" type="Button" parent="."]
+margin_left = 572.0
+margin_top = 344.0
+margin_right = 604.0
+margin_bottom = 392.0
+text = "Br"
+
+[node name="Kr" type="Button" parent="."]
+margin_left = 604.0
+margin_top = 344.0
+margin_right = 636.0
+margin_bottom = 392.0
+text = "Kr"
+
+[node name="Rb" type="Button" parent="."]
+margin_left = 60.0
+margin_top = 392.0
+margin_right = 92.0
+margin_bottom = 440.0
+text = "Rb"
+
+[node name="Sr" type="Button" parent="."]
+anchor_left = 100.0
+anchor_top = 1000.0
+anchor_right = 100.0
+anchor_bottom = 1000.0
+margin_left = -102308.0
+margin_top = -599608.0
+margin_right = -102276.0
+margin_bottom = -599560.0
+text = "Sr"
+
+[node name="Y" type="Button" parent="."]
+anchor_left = 10.0
+anchor_right = 10.0
+margin_left = -10116.0
+margin_top = 392.0
+margin_right = -10084.0
+margin_bottom = 440.0
+text = "Y"
+
+[node name="Zr" type="Button" parent="."]
+margin_left = 156.0
+margin_top = 392.0
+margin_right = 188.0
+margin_bottom = 440.0
+text = "Zr"
+
+[node name="Nb" type="Button" parent="."]
+margin_left = 188.0
+margin_top = 392.0
+margin_right = 220.0
+margin_bottom = 440.0
+text = "Nb"
+
+[node name="Mo" type="Button" parent="."]
+margin_left = 220.0
+margin_top = 392.0
+margin_right = 252.0
+margin_bottom = 440.0
+text = "Mo"
+
+[node name="Tc" type="Button" parent="."]
+margin_left = 252.0
+margin_top = 392.0
+margin_right = 284.0
+margin_bottom = 440.0
+text = "Tc"
+
+[node name="Ru" type="Button" parent="."]
+margin_left = 284.0
+margin_top = 392.0
+margin_right = 316.0
+margin_bottom = 440.0
+text = "Ru"
+
+[node name="Rh" type="Button" parent="."]
+margin_left = 316.0
+margin_top = 392.0
+margin_right = 348.0
+margin_bottom = 440.0
+text = "Rh"
+
+[node name="Pd" type="Button" parent="."]
+margin_left = 348.0
+margin_top = 392.0
+margin_right = 380.0
+margin_bottom = 440.0
+text = "Pd"
+
+[node name="Ag" type="Button" parent="."]
+margin_left = 380.0
+margin_top = 392.0
+margin_right = 412.0
+margin_bottom = 440.0
+text = "Ag"
+
+[node name="Cd" type="Button" parent="."]
+margin_left = 412.0
+margin_top = 392.0
+margin_right = 444.0
+margin_bottom = 440.0
+text = "Cd"
+
+[node name="In" type="Button" parent="."]
+margin_left = 444.0
+margin_top = 392.0
+margin_right = 476.0
+margin_bottom = 440.0
+text = "In"
+
+[node name="Sn" type="Button" parent="."]
+margin_left = 476.0
+margin_top = 392.0
+margin_right = 508.0
+margin_bottom = 440.0
+text = "Sn"
+
+[node name="Sb" type="Button" parent="."]
+margin_left = 508.0
+margin_top = 392.0
+margin_right = 540.0
+margin_bottom = 440.0
+text = "Sb"
+
+[node name="Te" type="Button" parent="."]
+margin_left = 540.0
+margin_top = 392.0
+margin_right = 572.0
+margin_bottom = 440.0
+text = "Te"
+
+[node name="I" type="Button" parent="."]
+margin_left = 572.0
+margin_top = 392.0
+margin_right = 604.0
+margin_bottom = 440.0
+text = "I"
+
+[node name="Xe" type="Button" parent="."]
+margin_left = 604.0
+margin_top = 392.0
+margin_right = 636.0
+margin_bottom = 440.0
+text = "Xe"
+
+[node name="Cs" type="Button" parent="."]
+margin_left = 60.0
+margin_top = 440.0
+margin_right = 92.0
+margin_bottom = 488.0
+text = "Cs"
+
+[node name="Ba" type="Button" parent="."]
+margin_left = 92.0
+margin_top = 440.0
+margin_right = 124.0
+margin_bottom = 488.0
+text = "Ba"
+
+[node name="Lu" type="Button" parent="."]
+margin_left = 124.0
+margin_top = 440.0
+margin_right = 156.0
+margin_bottom = 488.0
+text = "Lu"
+
+[node name="Hf" type="Button" parent="."]
+margin_left = 156.0
+margin_top = 440.0
+margin_right = 188.0
+margin_bottom = 488.0
+text = "Hf"
+
+[node name="Ta" type="Button" parent="."]
+margin_left = 188.0
+margin_top = 440.0
+margin_right = 220.0
+margin_bottom = 488.0
+text = "Ta"
+
+[node name="W" type="Button" parent="."]
+margin_left = 220.0
+margin_top = 440.0
+margin_right = 252.0
+margin_bottom = 488.0
+text = "W"
+
+[node name="Re" type="Button" parent="."]
+margin_left = 252.0
+margin_top = 440.0
+margin_right = 284.0
+margin_bottom = 488.0
+text = "Re"
+
+[node name="Os" type="Button" parent="."]
+margin_left = 284.0
+margin_top = 440.0
+margin_right = 316.0
+margin_bottom = 488.0
+text = "Os"
+
+[node name="Ir" type="Button" parent="."]
+margin_left = 316.0
+margin_top = 440.0
+margin_right = 348.0
+margin_bottom = 488.0
+text = "Ir"
+
+[node name="Pt" type="Button" parent="."]
+margin_left = 348.0
+margin_top = 440.0
+margin_right = 380.0
+margin_bottom = 488.0
+text = "Pt"
+
+[node name="Au" type="Button" parent="."]
+margin_left = 380.0
+margin_top = 440.0
+margin_right = 412.0
+margin_bottom = 488.0
+text = "Au"
+
+[node name="Hg" type="Button" parent="."]
+margin_left = 412.0
+margin_top = 440.0
+margin_right = 444.0
+margin_bottom = 488.0
+text = "Hg"
+
+[node name="Tl" type="Button" parent="."]
+margin_left = 444.0
+margin_top = 440.0
+margin_right = 476.0
+margin_bottom = 488.0
+text = "Tl"
+
+[node name="Pb" type="Button" parent="."]
+margin_left = 476.0
+margin_top = 440.0
+margin_right = 508.0
+margin_bottom = 488.0
+text = "Pb"
+
+[node name="Bi" type="Button" parent="."]
+margin_left = 508.0
+margin_top = 440.0
+margin_right = 540.0
+margin_bottom = 488.0
+text = "Bi"
+
+[node name="Po" type="Button" parent="."]
+margin_left = 540.0
+margin_top = 440.0
+margin_right = 572.0
+margin_bottom = 488.0
+text = "Po"
+
+[node name="At" type="Button" parent="."]
+margin_left = 572.0
+margin_top = 440.0
+margin_right = 604.0
+margin_bottom = 488.0
+text = "At"
+
+[node name="Rn" type="Button" parent="."]
+margin_left = 604.0
+margin_top = 440.0
+margin_right = 636.0
+margin_bottom = 488.0
+text = "Rn"
+
+[node name="Fr" type="Button" parent="."]
+margin_left = 60.0
+margin_top = 488.0
+margin_right = 92.0
+margin_bottom = 536.0
+text = "Fr"
+
+[node name="Ra" type="Button" parent="."]
+margin_left = 92.0
+margin_top = 488.0
+margin_right = 124.0
+margin_bottom = 536.0
+text = "Ra"
+
+[node name="Lr" type="Button" parent="."]
+margin_left = 124.0
+margin_top = 488.0
+margin_right = 156.0
+margin_bottom = 536.0
+text = "Lr"
+
+[node name="Rf" type="Button" parent="."]
+margin_left = 156.0
+margin_top = 488.0
+margin_right = 188.0
+margin_bottom = 536.0
+text = "Rf"
+
+[node name="Db" type="Button" parent="."]
+margin_left = 188.0
+margin_top = 488.0
+margin_right = 220.0
+margin_bottom = 536.0
+text = "Db"
+
+[node name="Sg" type="Button" parent="."]
+margin_left = 220.0
+margin_top = 488.0
+margin_right = 252.0
+margin_bottom = 536.0
+text = "Sg"
+
+[node name="Bh" type="Button" parent="."]
+margin_left = 252.0
+margin_top = 488.0
+margin_right = 284.0
+margin_bottom = 536.0
+text = "Bh"
+
+[node name="Hs" type="Button" parent="."]
+margin_left = 284.0
+margin_top = 488.0
+margin_right = 316.0
+margin_bottom = 536.0
+text = "Hs"
+
+[node name="Mt" type="Button" parent="."]
+margin_left = 316.0
+margin_top = 488.0
+margin_right = 348.0
+margin_bottom = 536.0
+text = "Mt"
+
+[node name="Ds" type="Button" parent="."]
+margin_left = 348.0
+margin_top = 488.0
+margin_right = 380.0
+margin_bottom = 536.0
+text = "Ds"
+
+[node name="Rg" type="Button" parent="."]
+margin_left = 380.0
+margin_top = 488.0
+margin_right = 412.0
+margin_bottom = 536.0
+text = "Rg"
+
+[node name="Cn" type="Button" parent="."]
+margin_left = 412.0
+margin_top = 488.0
+margin_right = 444.0
+margin_bottom = 536.0
+text = "Cn"
+
+[node name="Nh" type="Button" parent="."]
+margin_left = 444.0
+margin_top = 488.0
+margin_right = 476.0
+margin_bottom = 536.0
+text = "Nh"
+
+[node name="Fl" type="Button" parent="."]
+margin_left = 476.0
+margin_top = 488.0
+margin_right = 508.0
+margin_bottom = 536.0
+text = "Fl"
+
+[node name="Mc" type="Button" parent="."]
+margin_left = 508.0
+margin_top = 488.0
+margin_right = 540.0
+margin_bottom = 536.0
+text = "Mc"
+
+[node name="Lv" type="Button" parent="."]
+margin_left = 540.0
+margin_top = 488.0
+margin_right = 572.0
+margin_bottom = 536.0
+text = "Lv"
+
+[node name="Ts" type="Button" parent="."]
+margin_left = 572.0
+margin_top = 488.0
+margin_right = 604.0
+margin_bottom = 536.0
+text = "Ts"
+
+[node name="Og" type="Button" parent="."]
+margin_left = 604.0
+margin_top = 488.0
+margin_right = 636.0
+margin_bottom = 536.0
+text = "Og"
+
+[node name="Guess" type="RichTextLabel" parent="."]
+margin_left = 44.0
+margin_top = 1.0
+margin_right = 444.0
+margin_bottom = 41.0
+size_flags_horizontal = 2
+scroll_active = false
+
+[node name="Score" type="RichTextLabel" parent="."]
+margin_left = 700.0
+margin_top = 400.0
+margin_right = 740.0
+margin_bottom = 440.0
+text = "0"
+
+[node name="Question" type="RichTextLabel" parent="."]
+margin_left = 700.0
+margin_top = 100.0
+margin_right = 740.0
+margin_bottom = 140.0
+
+[node name="Submit" type="Button" parent="."]
+margin_left = 500.0
+margin_top = 150.0
+margin_right = 557.0
+margin_bottom = 170.0
+text = "Submit"
+
+[node name="Start" type="Button" parent="."]
+margin_left = 294.0
+margin_top = 179.0
+margin_right = 335.0
+margin_bottom = 199.0
+text = "Start"
+
+[node name="Clear" type="Button" parent="."]
+margin_left = 507.0
+margin_top = 180.0
+margin_right = 551.0
+margin_bottom = 200.0
+text = "Clear"
+
+[node name="ScoreHeading" type="RichTextLabel" parent="."]
+margin_left = 677.0
+margin_top = 344.0
+margin_right = 717.0
+margin_bottom = 384.0
+text = "Score"
+
+[connection signal="pressed" from="H" to="." method="_on_Element_pressed" binds= [ "H" ]]
+[connection signal="pressed" from="He" to="." method="_on_Element_pressed" binds= [ "He" ]]
+[connection signal="pressed" from="Li" to="." method="_on_Element_pressed" binds= [ "Li" ]]
+[connection signal="pressed" from="Be" to="." method="_on_Element_pressed" binds= [ "Be" ]]
+[connection signal="pressed" from="B" to="." method="_on_Element_pressed" binds= [ "B" ]]
+[connection signal="pressed" from="C" to="." method="_on_Element_pressed" binds= [ "C" ]]
+[connection signal="pressed" from="N" to="." method="_on_Element_pressed" binds= [ "N" ]]
+[connection signal="pressed" from="O" to="." method="_on_Element_pressed" binds= [ "O" ]]
+[connection signal="pressed" from="F" to="." method="_on_Element_pressed" binds= [ "F" ]]
+[connection signal="pressed" from="Ne" to="." method="_on_Element_pressed" binds= [ "Ne" ]]
+[connection signal="pressed" from="Na" to="." method="_on_Element_pressed" binds= [ "Na" ]]
+[connection signal="pressed" from="Mg" to="." method="_on_Element_pressed" binds= [ "Mg" ]]
+[connection signal="pressed" from="Al" to="." method="_on_Element_pressed" binds= [ "Al" ]]
+[connection signal="pressed" from="Si" to="." method="_on_Element_pressed" binds= [ "Si" ]]
+[connection signal="pressed" from="P" to="." method="_on_Element_pressed" binds= [ "P" ]]
+[connection signal="pressed" from="S" to="." method="_on_Element_pressed" binds= [ "S" ]]
+[connection signal="pressed" from="Cl" to="." method="_on_Element_pressed" binds= [ "Cl" ]]
+[connection signal="pressed" from="Ar" to="." method="_on_Element_pressed" binds= [ "Ar" ]]
+[connection signal="pressed" from="K" to="." method="_on_Element_pressed" binds= [ "K" ]]
+[connection signal="pressed" from="Ca" to="." method="_on_Element_pressed" binds= [ "Ca" ]]
+[connection signal="pressed" from="Sc" to="." method="_on_Element_pressed" binds= [ "Sc" ]]
+[connection signal="pressed" from="Ti" to="." method="_on_Element_pressed" binds= [ "Ti" ]]
+[connection signal="pressed" from="V" to="." method="_on_Element_pressed" binds= [ "V" ]]
+[connection signal="pressed" from="Cr" to="." method="_on_Element_pressed" binds= [ "Cr" ]]
+[connection signal="pressed" from="Mn" to="." method="_on_Element_pressed" binds= [ "Mn" ]]
+[connection signal="pressed" from="Fe" to="." method="_on_Element_pressed" binds= [ "Fe" ]]
+[connection signal="pressed" from="Co" to="." method="_on_Element_pressed" binds= [ "Co" ]]
+[connection signal="pressed" from="Ni" to="." method="_on_Element_pressed" binds= [ "Ni" ]]
+[connection signal="pressed" from="Cu" to="." method="_on_Element_pressed" binds= [ "Cu" ]]
+[connection signal="pressed" from="Zn" to="." method="_on_Element_pressed" binds= [ "Zn" ]]
+[connection signal="pressed" from="Ga" to="." method="_on_Element_pressed" binds= [ "Ga" ]]
+[connection signal="pressed" from="Ge" to="." method="_on_Element_pressed" binds= [ "Ge" ]]
+[connection signal="pressed" from="As" to="." method="_on_Element_pressed" binds= [ "As" ]]
+[connection signal="pressed" from="Se" to="." method="_on_Element_pressed" binds= [ "Se" ]]
+[connection signal="pressed" from="Br" to="." method="_on_Element_pressed" binds= [ "Br" ]]
+[connection signal="pressed" from="Kr" to="." method="_on_Element_pressed" binds= [ "Kr" ]]
+[connection signal="pressed" from="Rb" to="." method="_on_Element_pressed" binds= [ "Rb" ]]
+[connection signal="pressed" from="Sr" to="." method="_on_Element_pressed" binds= [ "Sr" ]]
+[connection signal="pressed" from="Y" to="." method="_on_Element_pressed" binds= [ "Y" ]]
+[connection signal="pressed" from="Zr" to="." method="_on_Element_pressed" binds= [ "Zr" ]]
+[connection signal="pressed" from="Nb" to="." method="_on_Element_pressed" binds= [ "Nb" ]]
+[connection signal="pressed" from="Mo" to="." method="_on_Element_pressed" binds= [ "Mo" ]]
+[connection signal="pressed" from="Tc" to="." method="_on_Element_pressed" binds= [ "Tc" ]]
+[connection signal="pressed" from="Ru" to="." method="_on_Element_pressed" binds= [ "Ru" ]]
+[connection signal="pressed" from="Rh" to="." method="_on_Element_pressed" binds= [ "Rh" ]]
+[connection signal="pressed" from="Pd" to="." method="_on_Element_pressed" binds= [ "Pd" ]]
+[connection signal="pressed" from="Ag" to="." method="_on_Element_pressed" binds= [ "Ag" ]]
+[connection signal="pressed" from="Cd" to="." method="_on_Element_pressed" binds= [ "Cd" ]]
+[connection signal="pressed" from="In" to="." method="_on_Element_pressed" binds= [ "In" ]]
+[connection signal="pressed" from="Sn" to="." method="_on_Element_pressed"]
+[connection signal="pressed" from="Sb" to="." method="_on_Element_pressed" binds= [ "Sb" ]]
+[connection signal="pressed" from="Te" to="." method="_on_Element_pressed" binds= [ "Te" ]]
+[connection signal="pressed" from="I" to="." method="_on_Element_pressed" binds= [ "I" ]]
+[connection signal="pressed" from="Xe" to="." method="_on_Element_pressed" binds= [ "Xe" ]]
+[connection signal="pressed" from="Submit" to="." method="_on_Submit_pressed" binds= [ 0, 0 ]]
+[connection signal="pressed" from="Start" to="." method="_on_Start_pressed"]
+[connection signal="pressed" from="Clear" to="." method="_on_Clear_pressed"]
